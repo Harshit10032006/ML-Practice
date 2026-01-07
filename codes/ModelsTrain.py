@@ -12,7 +12,14 @@ model=RandomForestClassifier()
 model.fit(x.values,y.values)
 
 c=traindata.iloc[:,:-1].values
+actual=traindata.iloc[:,-1]
 model.predict(c)
+actual.values
+count=0
+for i in range(len(actual)):
+    if actual[i] == k[i]:
+        count+=1
+print((count*100)/len(actual))
 
 
 train = pd.read_csv(r"C:\Users\kholi\Downloads\adult\adult.data",header=None)

@@ -1,6 +1,6 @@
 # ML-Practice
 Practicing machine learning models on multiple datasets using scikit learn
-# Machine Learning Practice – Iris & Adult Datasets
+# Machine Learning Practice – Iris , Housing Prediction & Adult Datasets
 
 This repository contains my practice code for training and testing machine learning models using **scikit-learn**.  
 I worked with two well-known datasets — **Iris** and **Adult (Census Income)** — to understand the full ML workflow.

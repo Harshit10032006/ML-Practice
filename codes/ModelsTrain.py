@@ -1,7 +1,6 @@
 import pandas as pd 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import OneHotEncoder
-
 ogdata=pd.read_excel('ML.xlsx')
 traindata=pd.read_excel('MLt.xlsx')
 
@@ -34,4 +33,4 @@ x_test_enc = encoder.transform(X_test)
 model = RandomForestClassifier(random_state=42)
 model.fit(X_train_enc, y_train)
 y_pred = model.predict(X_test_enc)
-y_pred
+

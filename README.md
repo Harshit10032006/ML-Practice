@@ -57,8 +57,6 @@ Random Forest was used because it handles non-linear relationships well and work
    - Test dataset
 6. Evaluate predictions (basic accuracy)
 
----
 
-## Project Structure
 
 

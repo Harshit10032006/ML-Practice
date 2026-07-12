@@ -1,5 +1,5 @@
 # ML-Practice
-Practicing machine learning models on multiple datasets using scikit learn
+Practicing machine learning models on multiple datasets 
 # Machine Learning Practice – Iris , Housing Prediction & Adult Datasets
 
 This repository contains my practice code for training and testing machine learning models using **scikit-learn**.  
